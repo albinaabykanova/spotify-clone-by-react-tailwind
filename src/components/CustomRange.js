@@ -7,7 +7,7 @@ function CustomRange({value, step, min, max, onChange}) {
             step={step}
             min={min}
             max={max} 
-            onChange={values => onChange(value[0])}
+            onChange={values => onChange(values[0])}
             renderTrack={({ props, children }) => (
             <div
                     onMouseDown={props.onMouseDown}
